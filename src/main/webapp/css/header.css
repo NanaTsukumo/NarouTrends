@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.global-nav
+{
+	font-size: 20px;
+	padding: 5px 10px;
+	background-color: rgb(149, 255, 239);
+}
+
+.title-block
+{
+	display: block;
+	background-color: aliceblue;
+}

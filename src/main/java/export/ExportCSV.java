@@ -10,11 +10,27 @@ package export;
 public class ExportCSV
 {
 	
+	//CSV出力用データの格納場所
+	private String[][] outputData = null;
+	
 	/**
 	 * コンストラクタ
 	 */
+
+
+
 	public ExportCSV()
 	{
-		
+		outputData = null;
+	}
+	
+	public String[][] getOutputData()
+	{
+		return outputData;
+	}
+
+	public void setOutputData(String[][] outputData)
+	{
+		this.outputData = outputData;
 	}
 }

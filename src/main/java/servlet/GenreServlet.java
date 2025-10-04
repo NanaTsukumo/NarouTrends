@@ -8,19 +8,19 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
 import constant.FileExtensionPath;
 import constant.FolderPath;
 import constant.GenreConst;
 import constant.narou4j.Narou4jNovelBigGenre;
 import constant.narou4j.Narou4jNovelGenre;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import trend.Trends;
+
 
 /**
  * 指定されたジャンルの小説情報(キーワード)を取得して返送する
@@ -31,7 +31,8 @@ import trend.Trends;
 public class GenreServlet extends HttpServlet
 {
 	/* @seeはドキュメントの関連項目 */
-
+	
+	
 	/**
 	 * 定期的にコマンドを送信するクラスのオブジェクト
 	 */

@@ -1,0 +1,15 @@
+{
+  "servers": [
+    {
+      "name": "NarouNowTrends-Server",
+      "port": 8080,
+      "tomcatPath": "C:/apache-tomcat-11.0.0",
+      "webapps": [
+        {
+          "name": "NarouNowTrends",
+          "path": "./target/NarouNowTrends.war"
+        }
+      ]
+    }
+  ]
+}

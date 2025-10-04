@@ -54,6 +54,9 @@ public class Main
 		//更新回数カウント
 		int updateCount = 0;
 		
+		//更新するジャンル
+		//String genre = "COMPREHENSIVE";
+		
 		//ジャンルごとの初期設定完了状況
 		//初期値は設定していないことを示すfalse
 		//本番環境ではコンストラクタでfalseに設定
@@ -138,6 +141,9 @@ public class Main
 		//updateCount=1 ８時の更新
 		//updateCount=2 １３時の更新
 		//updateCount=3 ２０時の更新
+		
+		//23時の更新
+		
 		
 		
 		//終了時刻(現在時刻)の方が遅い時間だと1 終了時刻(現在時刻)の方が早い時間だと-1　完全に同一の時刻であれば0

@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": [
+        "src/main/java"
+    ],
+    "java.project.outputPath": "build/classes",
+    "java.project.referencedLibraries": [
+        "D:/Eclipse work space/javaLibrary/*.jar"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "C:/Program Files/Java/jdk-17",
+            "default": true
+        }
+    ],
+    "maven.executable.path": "mvn",
+    "tomcat.workspace.name": "NarouNowTrends",
+    "tomcat.workspace.webapp": "src/main/webapp",
+    "tomcat.workspace.packageName": "NarouNowTrends",
+    "files.encoding": "utf8"
+}

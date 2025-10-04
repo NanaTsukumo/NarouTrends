@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* ===== Select Box Drop Down Menu ===== */
+
+.nav-list
+{
+	list-style: none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	position: relative;
+}
+
+.nav-item:hover .dropdown-lists
+{
+
+	display: block;
+	color: rgb(255, 128, 0);
+	padding: 13px 15px;
+	background-color: blue;
+
+}
+
+.dropdown-p
+{
+	display: block;
+	color: black;
+	/*padding: 5%;*/
+	/*font-size: x-large;*/
+	/*background-color: rgb(255, 128, 128);*/
+}
+
+.dropdown-p:hover
+{
+	display: block;
+	background-color: cadetblue;
+}
+
+.dropdown-lists
+{
+	display: none;/*デフォルトでリストは非表示*/
+	border-radius: 20px;
+}
+
+.dropdown-list
+{
+	display: block;
+	border-radius: 20px;
+	background-color: white;
+}
+
+.dropdown-list:hover a
+{
+	display: block;
+	color: white;
+	background-color: darkblue;
+}
+
+.submit-design
+{
+	width: 100%;
+	height: 40px;
+	font-size: large;
+	border-radius: 20px;
+	color: black;
+	background-color: aliceblue;
+}
+
+.submit-design:hover
+{
+	color: aliceblue;
+	background-color: rgb(64, 128, 128);
+}
